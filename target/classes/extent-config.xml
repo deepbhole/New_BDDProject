@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+	
+    <!-- Report Theme: Standard or Dark -->
+    <theme>standard</theme>
+
+    <!-- Report Name -->
+    <reportName>Automation Test Report</reportName>
+
+    <!-- Report Title -->
+    <documentTitle>Test Automation CucumberFramework</documentTitle>
+
+    <!-- Encoding, default is UTF-8 -->
+    <encoding>UTF-8</encoding>
+
+    <!-- Custom CSS: Specify the path to a CSS file -->
+    <styles>
+        <![CDATA[
+            .report-name {
+                font-family: 'Roboto', sans-serif;
+            }
+        ]]>
+    </styles>
+
+    <!-- Custom JavaScript: Specify the path to a JavaScript file -->
+    <scripts>
+        <![CDATA[
+            $(document).ready(function() 
+            
+        ]]>
+    </scripts>
+
+    <!-- Enable or disable the Dashboard -->
+    <dashboard>
+        <enable>true</enable>
+    </dashboard>
+
+    <!-- Chart Configuration -->
+    <chartConfig>
+        <config>
+            <showTestsByCategory>true</showTestsByCategory>
+            <showTestsByStatus>true</showTestsByStatus>
+        </config>
+    </chartConfig>
+
+    <!-- Log Status Colors -->
+    <statusColors>
+        <status>
+            <statusName>pass</statusName>
+            <hexValue>#00FF00</hexValue>
+        </status>
+        <status>
+            <statusName>fail</statusName>
+            <hexValue>#FF0000</hexValue>
+        </status>
+        <status>
+            <statusName>skip</statusName>
+            <hexValue>#FFFF00</hexValue>
+        </status>
+    </statusColors>
+
+    <!-- Protocol for Offline Mode -->
+    <protocol>https</protocol>
+    </configuration>
+</extentreports>
